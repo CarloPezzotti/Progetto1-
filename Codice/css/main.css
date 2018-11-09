@@ -1,0 +1,85 @@
+input[type="date"]{
+      width: 150px;
+      height: 17px;
+    }
+    input,textarea{
+      border-radius: 5px;  
+      background-color: white;
+      border: solid 0 black;
+      height: 20px;
+      -moz-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+   	  -webkit-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+    }
+    textarea{
+    	height: 100px;
+    	border-radius: 10px;
+    	resize: none;
+    	text-align: left;
+    }
+    #buttonGo{
+      position: absolute;
+      border: solid 3px white; 
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 50px;
+      background-color: rgb(63, 140, 246);
+      width:100px;
+      text-align:center;
+    }
+    #buttonGo:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+
+    #buttonReset{
+      position: absolute;
+      border: solid 3px white; 
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 50px;
+      background-color: red;
+      width:100px;
+      text-align:center;
+    }
+    #buttonReset:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+    body{
+      font-family: helvetica;
+	    background-image: url('../img/backgroundIPhone.png'); 
+	    background-color: #cccccc;
+	    background-position: center; 
+	    background-repeat: no-repeat;
+	    background-size: auto;
+      height: 500px; 
+      color: white;
+      overflow:hidden;
+    }
+    #container{
+      position: absolute;
+      margin-top: 50px;
+      width: 300;
+      border:solid white 2px;
+      border-radius: 20px;
+      color:white;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #34495E;
+    }
+    #rText{
+      position: absolute;
+    }
+    #gender{
+      display: inline;
+    }
+    #numericContries{
+      width : 50px;
+      border-radius: 50px;
+    }

@@ -1,0 +1,29 @@
+body{
+    font-family: helvetica;
+    background-image: url("../img/backgroundIPhone.png"); 
+    background-color: #cccccc;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  h1{
+    color: white;
+  }
+  #container{
+    position: absolute;
+  }
+  #button{
+    margin-top: 50px;
+    width: 150px;
+    border:solid white 2px;
+    border-radius: 50px;
+    color:white;
+  }
+  #button:hover{
+    background-color: white;
+    color: black;
+  }
+  #sottoTitolo{
+    color: rgb(255, 200, 255);
+  }

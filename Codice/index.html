@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/benvenuto.css" />
+  <script src="js/benventuoJs.js"></script>
+</head>
+<body onload="reposition()" onresize="reposition()">
+    <div id="container">
+      <center><h1>Benvenuto</h1>
+      <h2 id="sottoTitolo">Partecipa al sondaggio per vincere un IPhone Xs MAX</h2>
+      <div id="button" onclick="goRegister()">
+        <h3>Get Started</h3>
+      </div></center>
+    </div>
+    <script>
+      var container = document.getElementById('container');
+      var button = document.getElementById('button');
+      var containerHeight = container.offsetHeight;
+      var containerWidth = container.offsetWidth;
+      function reposition(){
+          container.style.marginTop = (window.innerHeight / 2) - (containerHeight/2) + "px";
+          container.style.marginLeft = (window.innerWidth / 2) - (containerWidth/2) + "px"; 
+      }
+      function goRegister(){
+        window.location.replace("register.php");
+      }
+    </script>
+</body>
+</html>

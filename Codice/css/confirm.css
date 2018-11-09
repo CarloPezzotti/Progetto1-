@@ -1,0 +1,61 @@
+body{
+	font-family: helvetica;
+	background-image: url('../img/backgroundIPhone.png'); 
+	background-color: #cccccc;
+	height: 500px; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	      
+}
+#container{
+	margin-top: 50px;
+	width: 500px;
+	border:solid white 2px;
+	border-radius: 20px;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;	
+	background-color: #34495E;	
+	table-layout: fixed;
+}
+#top{
+	color: yellow;
+	margin-bottom: 10px;
+}
+#avanti,#correggi{
+	width: 100px;
+	height: 30px;
+	background-color: rgb(63, 140, 246);
+	border-radius: 20px;
+	color:white;
+	border: 0;
+}
+.dato{
+	width: 100px;
+	word-wrap: break-word;
+	font-family:italic;
+}
+td{
+	border: solid 1px white;
+}
+h1{
+	color:white;
+}
+#buttonReturn{
+	border: solid 3px white; 
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 50px;
+	background-color: rgb(63, 140, 246);
+	width:100px;
+	text-align:center;
+}
+#buttonReturn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
